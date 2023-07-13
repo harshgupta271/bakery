@@ -1,0 +1,56 @@
+a{
+    color: black;
+}
+.hell{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.card{
+    margin:3%;
+    width:25%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 320px;
+}
+.card-body{
+    overflow-y: auto;
+    max-height: 200px;
+}
+.img{
+    width: 100%;
+    height: 100px!important;
+}
+.card:hover{
+    background-color:#f79F92
+}
+h6{
+    font-size: larger;
+    font-weight: bolder;
+    position: relative;
+}
+.main{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+     flex-direction:unset;
+}
+.rang{
+    background-color: #f79f92!important;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+.container{
+    background-color: rgb(237, 231, 208);
+}
+.btn{
+    background-color: pink;
+}
+
+@media(max-width:780px) {
+    .card{
+        width:90%;
+    }
+    .card.active{
+        background-color:#f79F92
+ 
+    }
+}
